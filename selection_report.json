@@ -1,0 +1,61 @@
+{
+  "job_id": "REQ-2026-SELECTION",
+  "total_applicants": 3,
+  "chosen_candidate_tag": "TAG-3451M",
+  "chosen_candidate_rationale": "Candidate 'TAG-3451M' was selected as the #1 candidate among 3 applicants. CAUTION: Top candidate fulfilled 66.7% of mandatory qualifications; missing: Proven experience with PostgreSQL or MyS. Preferred qualifications fulfillment: 100.0% (calibrated uncertainty: 0.400). Comparison vs Runner-Up 'TAG-1236T': Chosen candidate achieved 66.7% must-have / 100.0% preferred, compared to runner-up's 66.7% must-have / 0.0% preferred. MANDATORY HUMAN REVIEW TRIGGERED: High Uncertainty (0.40 > 0.35): Confidence insufficient for autonomous resolution..",
+  "candidate_rankings": [
+    {
+      "rank": 1,
+      "candidate_tag": "TAG-3451M",
+      "must_have_ratio": 0.667,
+      "preferred_ratio": 1.0,
+      "calibrated_uncertainty": 0.4,
+      "recommendation": "MANDATORY_HUMAN_REVIEW",
+      "human_review_required": true,
+      "key_strengths": [
+        "Strong proficiency in Python or Go for m",
+        "Hands-on experience with Docker and Kube",
+        "Experience with Redis caching mechanisms",
+        "Familiarity with Terraform infrastructur"
+      ],
+      "missing_mandatory": [
+        "Proven experience with PostgreSQL or MyS"
+      ]
+    },
+    {
+      "rank": 2,
+      "candidate_tag": "TAG-1236T",
+      "must_have_ratio": 0.667,
+      "preferred_ratio": 0.0,
+      "calibrated_uncertainty": 0.4,
+      "recommendation": "MANDATORY_HUMAN_REVIEW",
+      "human_review_required": true,
+      "key_strengths": [
+        "Strong proficiency in Python or Go for m",
+        "Hands-on experience with Docker and Kube"
+      ],
+      "missing_mandatory": [
+        "Proven experience with PostgreSQL or MyS"
+      ]
+    },
+    {
+      "rank": 3,
+      "candidate_tag": "TAG-9267K",
+      "must_have_ratio": 0.667,
+      "preferred_ratio": 0.0,
+      "calibrated_uncertainty": 0.75,
+      "recommendation": "MANDATORY_HUMAN_REVIEW",
+      "human_review_required": true,
+      "key_strengths": [
+        "Strong proficiency in Python or Go for m",
+        "Hands-on experience with Docker and Kube"
+      ],
+      "missing_mandatory": [
+        "Proven experience with PostgreSQL or MyS"
+      ]
+    }
+  ],
+  "runner_up_tag": "TAG-1236T",
+  "human_review_mandatory": true,
+  "auditable_decision_trail": "Candidate 'TAG-3451M' was selected as the #1 candidate among 3 applicants.\nCAUTION: Top candidate fulfilled 66.7% of mandatory qualifications; missing: Proven experience with PostgreSQL or MyS.\nPreferred qualifications fulfillment: 100.0% (calibrated uncertainty: 0.400).\nComparison vs Runner-Up 'TAG-1236T': Chosen candidate achieved 66.7% must-have / 100.0% preferred, compared to runner-up's 66.7% must-have / 0.0% preferred.\nMANDATORY HUMAN REVIEW TRIGGERED: High Uncertainty (0.40 > 0.35): Confidence insufficient for autonomous resolution.."
+}

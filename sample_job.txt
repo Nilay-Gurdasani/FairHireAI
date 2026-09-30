@@ -1,0 +1,11 @@
+Job Title: Senior Backend Cloud Engineer
+Requisition ID: REQ-2026-ENG-42
+
+Requirements (Must-Have):
+- Strong proficiency in Python or Go for microservices development.
+- Hands-on experience with Docker and Kubernetes deployment workflows.
+- Proven experience with PostgreSQL or MySQL database design.
+
+Preferred:
+- Experience with Redis caching mechanisms.
+- Familiarity with Terraform infrastructure as code.

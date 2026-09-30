@@ -1,0 +1,14 @@
+Johnathan Miller
+Email: j.miller@email.com | Phone: (555) 345-6789
+LinkedIn: linkedin.com/in/jmiller-dev | GitHub: github.com/jmiller
+Address: 456 Tech Parkway, Austin, TX 78701
+
+Professional Experience:
+Backend Engineer | NextGen Cloud (2022 - Present)
+- Engineered scalable microservices in Python utilizing FastAPI and Go routines.
+- Packaged applications with Docker and deployed clusters to Kubernetes environments.
+- Optimized relational data models on PostgreSQL, reducing query latency by 40%.
+- Configured Redis caching layers for high frequency session management.
+
+Education:
+B.S. in Computer Engineering (2020)

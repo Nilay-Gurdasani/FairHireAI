@@ -1,0 +1,100 @@
+{
+  "candidate_tag": "TAG-3172F",
+  "job_id": "REQ-CUSTOM-01",
+  "recommendation": "RECOMMENDED",
+  "human_review_required": false,
+  "human_review_reasons": [],
+  "calibrated_uncertainty_score": 0.0,
+  "uncertainty_factors": [],
+  "must_have_fulfillment_ratio": 1.0,
+  "preferred_fulfillment_ratio": 0.5,
+  "evidence_matches": [
+    {
+      "criterion_id": "CRIT-01",
+      "criterion_name": "Strong proficiency in Python or Go for m",
+      "is_must_have": true,
+      "status": "FULFILLED",
+      "verbatim_quotes": [
+        "- Engineered scalable microservices in Python utilizing FastAPI and Go routines"
+      ],
+      "evidence_strength": 0.75,
+      "rationale": "Verifiable evidence found in 1 text reference(s)."
+    },
+    {
+      "criterion_id": "CRIT-02",
+      "criterion_name": "Hands-on experience with Docker and Kube",
+      "is_must_have": true,
+      "status": "FULFILLED",
+      "verbatim_quotes": [
+        "- Packaged applications with Docker and deployed clusters to Kubernetes environments"
+      ],
+      "evidence_strength": 0.75,
+      "rationale": "Verifiable evidence found in 1 text reference(s)."
+    },
+    {
+      "criterion_id": "CRIT-03",
+      "criterion_name": "Proven experience with PostgreSQL or MyS",
+      "is_must_have": true,
+      "status": "FULFILLED",
+      "verbatim_quotes": [
+        "- Optimized relational data models on PostgreSQL, reducing query latency by 40%"
+      ],
+      "evidence_strength": 0.75,
+      "rationale": "Verifiable evidence found in 1 text reference(s)."
+    },
+    {
+      "criterion_id": "CRIT-04",
+      "criterion_name": "Experience with Redis caching mechanisms",
+      "is_must_have": false,
+      "status": "FULFILLED",
+      "verbatim_quotes": [
+        "- Configured Redis caching layers for high frequency session management"
+      ],
+      "evidence_strength": 0.75,
+      "rationale": "Verifiable evidence found in 1 text reference(s)."
+    },
+    {
+      "criterion_id": "CRIT-05",
+      "criterion_name": "Familiarity with Terraform infrastructur",
+      "is_must_have": false,
+      "status": "UNFULFILLED",
+      "verbatim_quotes": [],
+      "evidence_strength": 0.0,
+      "rationale": "No verifiable textual evidence discovered in candidate dossier."
+    }
+  ],
+  "missing_mandatory_criteria": [],
+  "criterion_explanations": {
+    "Strong proficiency in Python or Go for m": "FULFILLED with verbatim citations: \"- Engineered scalable microservices in Python utilizing FastAPI and Go routines\"",
+    "Hands-on experience with Docker and Kube": "FULFILLED with verbatim citations: \"- Packaged applications with Docker and deployed clusters to Kubernetes environments\"",
+    "Proven experience with PostgreSQL or MyS": "FULFILLED with verbatim citations: \"- Optimized relational data models on PostgreSQL, reducing query latency by 40%\"",
+    "Experience with Redis caching mechanisms": "FULFILLED with verbatim citations: \"- Configured Redis caching layers for high frequency session management\"",
+    "Familiarity with Terraform infrastructur": "UNFULFILLED: Zero verbatim evidence found in candidate submission."
+  },
+  "security_scan": {
+    "candidate_id": "CANDIDATE-INPUT",
+    "is_safe": true,
+    "risk_level": "CLEAN",
+    "threats_detected": [],
+    "sanitized_content": "<untrusted_candidate_text id=\"CANDIDATE-INPUT\">\nJohnathan Miller\nEmail: j.miller@email.com | Phone: (555) 345-6789\nLinkedIn: linkedin.com/in/jmiller-dev | GitHub: github.com/jmiller\nAddress: 456 Tech Parkway, Austin, TX 78701\n\nProfessional Experience:\nBackend Engineer | NextGen Cloud (2022 - Present)\n- Engineered scalable microservices in Python utilizing FastAPI and Go routines.\n- Packaged applications with Docker and deployed clusters to Kubernetes environments.\n- Optimized relational data models on PostgreSQL, reducing query latency by 40%.\n- Configured Redis caching layers for high frequency session management.\n\nEducation:\nB.S. in Computer Engineering (2020)\n</untrusted_candidate_text>",
+    "quarantine_flag": false,
+    "audit_notes": "Security Scan Completed. Detected 0 anomalies. Max Severity: CLEAN."
+  },
+  "fairness_audit": {
+    "candidate_tag": "TAG-3172F",
+    "demographic_neutrality_verified": true,
+    "proxy_leakage_detected": false,
+    "counterfactual_check_passed": true,
+    "identified_proxies": [],
+    "audit_notes": "Candidate scrubbed across 7 entities. Demographic proxies neutralized: None. Invariant under counterfactual identity swap."
+  },
+  "governance_metadata": {
+    "evaluated_at": "2026-09-30T16:28:06.846912+00:00",
+    "orchestrator": "Nilay Gurdasani (FAIRHIRE Core)",
+    "governance_engine": "Yug Jain & Tanmay VM",
+    "security_lead": "Avika Gour",
+    "privacy_lead": "Naksh Khandelwal",
+    "intake_lead": "Debadrita",
+    "model_version": "FAIRHIRE-v2.0-Production"
+  }
+}
