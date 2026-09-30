@@ -1,0 +1,17 @@
+Blake Taylor
+Email: blake.t@frontendhub.com | Phone: (555) 789-1234
+LinkedIn: linkedin.com/in/blaketaylor | GitHub: github.com/blaketaylor
+Address: 55 Sunset Blvd, Los Angeles, CA 90028
+
+Summary:
+Frontend developer specializing in React and UI/UX engineering with 3 years experience.
+
+Experience:
+UI Developer | CreativePixel (2021 - Present)
+- Built interactive user interfaces using React, TypeScript, and Tailwind CSS.
+- Integrated RESTful APIs and optimized client-side rendering speed.
+- Collaborated with product designers on mobile responsive design layouts.
+
+Skills:
+React, TypeScript, JavaScript, CSS, HTML5, Webpack.
+*(No Kubernetes, Go, or Cloud experience)*

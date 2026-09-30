@@ -1,0 +1,17 @@
+Alex Mercer
+Email: alex.m@techreach.io | Phone: (555) 234-8901
+LinkedIn: linkedin.com/in/alexmercer | GitHub: github.com/alexmercer
+Address: 101 Innovation Way, Seattle, WA 98101
+
+Summary:
+Senior Backend Systems Architect with 7 years of distributed cloud development experience.
+
+Experience:
+Senior Systems Engineer | ScaleFlow (2020 - Present)
+- Deployed and operated resilient Kubernetes container clusters across multi-region AWS environments.
+- Developed concurrent high-performance microservices using Go and Python.
+- Designed automated CI/CD deployment pipelines using Terraform and GitHub Actions.
+- Implemented real-time distributed stream processing leveraging Apache Kafka and Redis.
+
+Education:
+B.S. in Computer Science (2017)
